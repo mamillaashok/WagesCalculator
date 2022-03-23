@@ -4,4 +4,4 @@ GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o target/WagesCalculatorbin -ldf
 
 
 
-zip -j target/golambda.zip target/WagesCalculatorbin
+zip -j target/WagesCalculator.zip target/WagesCalculatorbin
