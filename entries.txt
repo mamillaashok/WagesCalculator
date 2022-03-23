@@ -1,0 +1,7 @@
+"CLI Entry for generating binary file"
+
+GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o target/WagesCalculatorbin -ldflags '-w' WagesCalculator.go
+
+
+
+zip -j target/golambda.zip target/WagesCalculatorbin
